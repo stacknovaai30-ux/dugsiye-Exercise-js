@@ -1,26 +1,28 @@
 
-let x = 7;
-let y = 3;
+// Declare variables
+let a = 15;
+let b = "15";
 
-// Addition
-console.log("Addition:", x + y);
+// Equal to
+console.log("Equal to:", a == b);
 
-// Subtraction
-console.log("Subtraction:", x - y);
+// Not equal to
+console.log("Not equal to:", a != b);
 
-// Multiplication
-console.log("Multiplication:", x * y);
+// Strictly equal to
+console.log("Strictly equal to:", a === b);
 
-// Division
-console.log("Division:", x / y);
+// Strictly not equal to
+console.log("Strictly not equal to:", a !== b);
 
-// Modulus
-console.log("Modulus:", x % y);
+// Greater than
+console.log("Greater than:", a > b);
 
-// Increment
-console.log("Increment:", x++);
-console.log("After increment:", x);
+// Less than
+console.log("Less than:", a < b);
 
-// Decrement
-console.log("Decrement:", x--);
-console.log("After decrement:", x);
+// Greater than or equal to
+console.log("Greater than or equal to:", a >= b);
+
+// Less than or equal to
+console.log("Less than or equal to:", a <= b);
