@@ -1,28 +1,18 @@
 
-// Declare variables
-let a = 15;
-let b = "15";
+// Declare boolean variables
+let isSunny = true;
+let isWeekend = true;
 
-// Equal to
-console.log("Equal to:", a == b);
+// AND operator
+console.log("Can go to the beach (AND):", isSunny && isWeekend);
 
-// Not equal to
-console.log("Not equal to:", a != b);
+// OR operator
+console.log("Can go to the beach (OR):", isSunny || isWeekend);
 
-// Strictly equal to
-console.log("Strictly equal to:", a === b);
+// NOT operator
+console.log("Is it not sunny (NOT):", !isSunny);
 
-// Strictly not equal to
-console.log("Strictly not equal to:", a !== b);
+// Final decision
+let canGoToBeach = isSunny && isWeekend;
 
-// Greater than
-console.log("Greater than:", a > b);
-
-// Less than
-console.log("Less than:", a < b);
-
-// Greater than or equal to
-console.log("Greater than or equal to:", a >= b);
-
-// Less than or equal to
-console.log("Less than or equal to:", a <= b);
+console.log("Can I go to the beach?", canGoToBeach);
