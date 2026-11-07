@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Logical Operators</title>
+    <title>JavaScript Functions and Scope</title>
 </head>
 <body>
 
-    <h1>Logical Operators Exercise</h1>
+    <h1>Functions and Scope Exercises</h1>
 
     <script src="script.js"></script>
+
 </body>
 </html>
